@@ -31,7 +31,5 @@
     },
     "typeRoots": ["node_modules/yup"]
   },
-  "include": ["src","/__tests__/*.test.ts"],
   "references": [{ "path": "./tsconfig.node.json" }],
-  "exclude": ["/tests/*.test.ts"]
 }
