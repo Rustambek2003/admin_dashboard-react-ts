@@ -1,0 +1,277 @@
+/* .wrap{
+    width: 290px;
+    height: 100%;
+    background-color:#7e4dff;
+    position: fixed;
+    
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: -100%;
+} */
+.wrap2{
+    width: 290px;
+    height: 710px;
+    background-color:#7e4dff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+@media(max-width:1330px){
+    .wrap2{
+        width: 270px;
+        height: 640px;
+    }
+}
+@media(max-width:1198px){
+    .wrap2{
+        width: 250px;
+        height: 630px;
+    }
+}
+@media(max-width:1088px){
+    .wrap2{
+        width: 230px;
+        height: 650px;
+    }
+}
+@media(max-width:895px){
+    .wrap2{
+        width: 210px;
+        height: 600px;
+    }
+}
+@media(max-width:780px){
+    .wrap2{
+        width: 210px;
+        height: 580px;
+    }
+}
+.wrap img{
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+    -webkit-box-shadow: -10px -2px 45px 39px rgba(34, 60, 80, 0.06);
+-moz-box-shadow: -10px -2px 45px 39px rgba(34, 60, 80, 0.06);
+box-shadow: -10px -2px 45px 39px rgba(34, 60, 80, 0.06);
+}
+@media(max-width:1330px){
+    .wrap img{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media(max-width:1198px){
+    .wrap img{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media(max-width:1088px){
+    .wrap img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media(max-width:895px){
+    .wrap img{
+        width: 44px;
+        height: 44px;
+    }
+}
+.CardBlock{
+    width: 220px;
+    height: 400px;
+   box-shadow: 10px 5px 5px #6226e3; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    background-color:#6a3aee;
+    /* box-shadow: 5px 5px 20px white; */
+}
+@media(max-width:1330px){
+    .CardBlock{
+        width: 190px;
+        height: 380px;
+    }
+}
+@media(max-width:1198px){
+    .CardBlock{
+        width: 170px;
+        height: 350px;
+    }
+}
+@media(max-width:1088px){
+    .CardBlock{
+        width: 150px;
+        height: 330px;
+    }
+}
+@media(max-width:895px){
+    .CardBlock{
+        width: 130px;
+        height: 300px;
+    }
+}
+.CardBlock span{
+    width: 200px;
+    height: 35px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 30px;
+    /* background-color:#8553f0; */
+    background-color:#6a3aee;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    /* box-shadow: 10px 5px 5px white; */
+    -webkit-box-shadow: -10px -2px 45px 39px rgba(115, 60, 163, 0.06);
+    -moz-box-shadow: -10px -2px 45px 39px rgba(52, 91, 121, 0.06);
+    box-shadow: -10px -2px 45px 39px rgba(183, 206, 223, 0.06);
+
+}
+@media(max-width:1330px){
+    .CardBlock span{
+        width: 190px;
+        height: 30px;
+    }
+}
+@media(max-width:1198px){
+    .CardBlock span{
+        width: 170px;
+        height: 25px;
+    }
+}
+@media(max-width:1088px){
+    .CardBlock span{
+        width: 150px;
+        height: 20px;
+    }
+}
+@media(max-width:895px){
+    .CardBlock span{
+        width: 130px;
+        height: 17px;
+    }
+}
+.H4tag{
+    color:white;
+    font-size: 20px;
+    background-color: #6a3aee;
+}
+@media(max-width:1330px){
+    .H4tag{
+        font-size: 17px;
+    }
+}
+@media(max-width:1198px){
+    .H4tag{
+        font-size: 15px;
+    }
+}
+@media(max-width:1088px){
+    .H4tag{
+        font-size: 13px;
+    }
+}
+@media(max-width:895px){
+    .H4tag{
+        font-size: 10px;
+    }
+}
+.CardBlock span {
+    font-size: 25px;
+    background-color: #6a3aee;
+}
+@media(max-width:1330px){
+    .CardBlock span{
+        font: 20px sans-serif;
+    }
+}
+@media(max-width:1198px){
+    .CardBlock span{
+        font: 17px sans-serif;
+    }
+}
+@media(max-width:1088px){
+    .CardBlock span{
+        font: 15px sans-serif;
+    }
+}
+@media(max-width:895px){
+    .CardBlock span{
+        font: 13px sans-serif;
+    }
+}
+.blockFoto{
+    width: 220px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #6a3aee;
+   
+    /* box-shadow: 5px 5px 20px white; */
+  
+}
+@media(max-width:1330px){
+    .blockFoto{
+        width: 200px;
+        height: 130px;
+    }
+}
+@media(max-width:1198px){
+    .blockFoto{
+        width: 170px;
+        height: 110px;
+    }
+}
+@media(max-width:1088px){
+    .blockFoto{
+        width: 150px;
+        height: 90px;
+    }
+}
+@media(max-width:895px){
+    .blockFoto{
+        width: 130px;
+        height: 80px;
+    }
+}
+.blockFoto img{
+    width: 220px;
+    height: 150px;
+    
+}
+@media(max-width:1330px){
+    .blockFoto img{
+        width: 195px;
+        height: 130px;
+    }
+}
+@media(max-width:1198px){
+    .blockFoto img{
+        width: 170px;
+        height: 110px;
+    }
+}
+@media(max-width:1088px){
+    .blockFoto img{
+        width: 150px;
+        height: 90px;
+    }
+}
+@media(max-width:895px){
+    .blockFoto img{
+        width: 130px;
+        height: 80px;
+    }
+}
